@@ -8,6 +8,7 @@
     flex-grow: 1;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 .main-users-wrapper {
@@ -15,13 +16,6 @@
     align-items: center;
     justify-content: center;
     min-height: 250px;
-}
-
-.main-age-text,
-.main-counter,
-.main-button
-{
-    margin: 0 auto;
 }
 
 .main-button {

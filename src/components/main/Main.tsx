@@ -24,7 +24,7 @@ const Main = () => {
         }, 1000);
 
         // TODO check if counter === 10 || counter % 10 === 0
-        if (isRequesting && counter % 10 === 0) {
+        if (isRequesting && (counter > 0 && counter % 10 === 0)) {
             getUsers();
         }
         return () => {
